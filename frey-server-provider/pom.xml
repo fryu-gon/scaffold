@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>scaffold</artifactId>
+        <groupId>com.freyjava.dubbo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>frey-server-provider</artifactId>
+    <properties>
+        <frey-provider-api-version>1.0-SNAPSHOT</frey-provider-api-version>
+        <dubbo-version>2.6.0</dubbo-version>
+    </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.freyjava.dubbo</groupId>
+            <artifactId>frey-provider-api</artifactId>
+            <version>${frey-provider-api-version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo-version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
