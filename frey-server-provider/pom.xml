@@ -12,7 +12,7 @@
     <artifactId>frey-server-provider</artifactId>
     <properties>
         <frey-provider-api-version>1.0-SNAPSHOT</frey-provider-api-version>
-        <dubbo-version>2.6.0</dubbo-version>
+        <dubbo-version>2.6.12</dubbo-version>
     </properties>
     <dependencies>
 
